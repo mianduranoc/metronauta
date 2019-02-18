@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Reseña</title>
+	<link rel="stylesheet" type="text/css" href="../css/formulario.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<script src="../scripts/formularios.js"></script>
+</head>
+<body>
+<div class="navegacion">
+            <header>
+				<div>
+					<a href="#">Ingresar</a>				
+				</div>
+				<h1>El Metronauta</h1>
+				<p>El  sitio  donde compartes  tus calificaciones  y  opiniones  en  entretenimiento</p>
+
+			</header>
+			<!-- /header -->
+
+			<!-- inicio de nav -->
+			<nav>
+				<ul>					
+					<li class="menu-item"><a href="index.php">Inicio</a></li>
+					<li class="menu-item"><a href="resena.php">Hacer una resena</a></li>
+					<li class="menu-item"><a href="##">Entrar</a></li>
+					<li class="menu-item"><a href="registro.php">Crear cuenta</a></li>
+					<li class="menu-item"><a href="mapa.php">Mapa del sitio</a></li>
+					<li class="menu-item"><a href="##">Contacto</a></li>
+					<li class="menu-item"><a href="##">Acerca de este sitio</a></li>
+				</ul>
+
+			</nav>
+			<!-- /nav -->
+</div>
+<div class="contenedor-formulario">
+    <div class="contenedor-titulo">
+        <h2 class="titulo-formulario">Realizar Reseña</h2>
+    </div>
+    <div class="contenedor-inputs" id="r-contrasena">
+        <form>
+            <div class="input-div">						
+                    <input type="text" class="input-text" name="nombre" placeholder="Nombre del revisor">
+                    <img src="../img/llenar.png" class="icono" required>
+            </div>
+            <div class="input-div" id="r-correo">
+                <input type="email" class="input-text" id="correo" placeholder="Correo electronico" ><img src="../img/llenar.png" class="icono" required>
+            </div>
+
+            <div class="input-div">
+                <input type="text" class="input-text" name="titulo"  placeholder="Contenido a reseñar">
+                <img src="../img/llenar.png" class="icono" required>
+            </div>
+            <div class="input-div">
+            <input  class="input-text" type="url" name="url" placeholder="http://"><img src="../img/llenar.png" class="icono" required>
+            </div>
+            
+            <div class="input-div">
+                <select class="input-text" name="categoria" placeholder="Categoria">
+                    <option selected>Series de T.V.</option>
+                    <option>Pelicula</option>
+                    <option>Videojuego</option>
+                    <option>Gadget</option>
+                    <option>Musica</option>
+                    <option>Sitio Web</option>						
+                </select>
+                <img src="../img/llenar.png" class="icono" required>
+            </div>
+            <div class="input-div">
+                <textarea  class="input-text" placeholder="Escriba aquí tu reseña" name="comentario" cols="30" rows="7"></textarea><img src="../img/llenar.png" class="icono" required>
+            </div>
+            <div class="input-div">
+                    <label>Calificacion</label>
+                    <input class="input-text" type="radio" name="califica" value="1" >
+                    <label id="calif">1</label>
+                    <input class="input-text" type="radio" name="califica" value="2">
+                    <label  id="calif">2</label>
+                    <input class="input-text" type="radio" name="califica" value="3">
+                    <label  id="calif">3</label>
+                    <input class="input-text" type="radio" name="califica" value="4">
+                    <label  id="calif">4</label>
+                    <input class="input-text" type="radio" name="califica" value="5" >						
+                    <label id="calif">5</label>				
+               <img src="../img/llenar.png" class="icono" required>
+            </div>
+            <div class="input-div">
+                <label for="robot">Confirmar publicación: </label><input type="radio" class="input-text" name="robot"><img src="../img/llenar.png" class="icono" required>
+            </div>
+            <div class="div-botones">
+                <input type="submit" value="Enviar" class="boton-enviar"><input type="reset" class="boton-borrar" value="Reiniciar">
+            </div>
+        </form>
+    </div>
+</div>	
+    <!-- inicio del footer -->
+    <footer>
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <ul>
+                <li><a href="#">Correo: contacto@elmetronomo.com</a></li>
+                <li>Telefono: 311 123 44 55</li>
+                <li>&copy;Derechos reservados</li>
+            </ul>
+        </div>
+        <div class="mapa">
+            <h3>Mapa del sitio</h3>
+            <a href="#">Principal </a>|
+            <a href="#"> Acerca de </a>|
+            <a href="#"> Preguntas frecuentes </a>|
+            <a href="#"> Privacidad </a>
+        </div>			
+    </footer>
+    <!-- /footer -->
+</body>
+</html>

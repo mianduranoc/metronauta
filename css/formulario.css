@@ -1,0 +1,125 @@
+
+/*<<<<<<<<<<<<Contenedor del formulario>>>>>>>>>>>>>>>><*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.contenedor-formulario{
+    margin: 2% auto;
+    width: 400px;        
+    box-shadow: 0 0 3px black;    
+}
+/*<<<<<<<<<<<<Div-Titulo>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.contenedor-titulo{
+    background-color: #0088FF;    
+    padding: 10px;
+      
+}
+
+/*<<<<<<<<<<<<Titulo formulario h2>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.titulo-formulario{
+    color: white;     
+    margin: 0;   
+    font-family: Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+/*<<<<<<<<<<<<Div-inputs>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.contenedor-inputs{    
+    padding: 20px;    
+    background-color: lightblue;    
+}
+
+/*<<<<<<<<<<<<Contenedor individual de los input>>>>>>>>>>>>>>>><*/
+.input-div{    
+    padding: 8px;
+    background-color: rgb(238, 238, 238);  
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 8px; 
+    transition: box-shadow 0.5s;
+}
+
+.input-div-focus{
+    background-color: white;
+}
+
+.input-div-vacio{
+    background-color: pink;
+}
+
+.input-div:hover{
+    box-shadow: 0 0 8px blue;
+}
+
+/*<<<<<<<<<<<<formato de los intput de texto y fecha>>>>>>>>>>>>>>>><*/
+.input-text {
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(238, 238, 238);    
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif; 
+    outline-style: none;  
+    color: blue;   
+    width: 100%;
+}
+
+.input-text-focus{
+    background-color: white;
+    border: 1px solid white;    
+}
+
+.input-text-vacio{
+    background-color: pink;
+    border: 1px solid pink;    
+}
+/*<<<<<<<<<<<<formato para la s label>>>>>>>>>>>>>>>><*/
+label{
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif; 
+    color: gray;   
+    width: 100%;
+}
+
+/*<<<<<<<<<<<<icono de los input>>>>>>>>>>>>>>>><*/
+.icono{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;      
+}
+
+/*<<<<<<<<<<<<Div para botones>>>>>>>>>>>>>>>><*/
+.div-botones{
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 3fr 1fr;
+}
+
+/*<<<<<<<<<<<<Boton enviar>>>>>>>>>>>>>>>><*/
+.boton-enviar{
+    height: 40px; 
+    border: 0;
+    background-color: green;    
+    color: white; 
+    transition: background-color 0.3s;                 
+}
+
+.boton-enviar:hover{
+    background-color: #00AA00;    
+    cursor: pointer;
+}
+
+/*<<<<<<<<<<<<Boton borrar>>>>>>>>>>>>>>>><*/
+.boton-borrar{
+    height: 40px; 
+    border: 0;
+    background-color: orange;    
+    color: white; 
+    transition: all 0.6s;                 
+    /* border-left: 4px solid steelblue;
+    border-right:  4px solid steelblue;
+    box-shadow: 0px 0px 0px steelblue inset,-1px 0px 0px steelblue inset; */
+}
+
+.boton-borrar:hover{
+    background-color: #FFCC00;
+    /* box-shadow: 80px 0px 0px steelblue inset, -80px 0px 0px steelblue inset; */
+    cursor: pointer;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Orbitron');
+.tarjeta{
+	height:fit-content;
+	background-color: #ffffff;
+	width: 250px;	
+	margin:1em;
+	border: gray solid 1px;
+	padding: 0.5em;
+	overflow: auto;
+	border-radius: 5px;
+	
+}
+
+.tarjeta:hover{
+	border: blue solid 1px;
+	box-shadow: 0px 0px 20px lightgray;
+}
+.tarjeta img{
+	width: 100%;
+	border:gray solid 1px;
+}
+.tarjeta h2{
+	color:gray;
+	font-family: "Arial Narrow",san-serif;
+	text-align: left;
+	padding: 0;
+	margin:0;
+}
+.tarjeta li{
+	padding: 0.4em;
+	color: gray;
+	border-top: 1px dotted gray;
+	list-style: none;
+}
+.tarjeta ul{
+	padding: 0;
+	margin:0;
+}
+.tarjeta ul a{
+	color: gray;
+	display: block;
+	padding: 0.2em;
+	text-decoration: none;
+	font-family: "Calibri",san-serif;
+}
+.tarjeta ul a:hover{
+	color: blue;
+}
+.tarjeta > div > a{
+	display: block;
+	color: white;
+	font-family: "Calibri",san-serif;
+	padding: 0.5em;
+	text-decoration: none;
+	background-color: #0033ff;
+	float: right;
+	border-radius: 4px;
+}
+.tarjeta > a:hover{
+	background-color: #0055ff;
+}
+.contenedor-tarjetas{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}

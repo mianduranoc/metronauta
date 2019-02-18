@@ -1,0 +1,48 @@
+.menu-item{
+	float: left;
+}
+nav ul, nav li{
+	padding: 0;
+	margin:0;
+}
+nav ul{
+	list-style: none;	
+}
+nav a{
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	color: white;
+
+}
+nav li{
+	word-break: break-word;
+	background-color: gray;			
+
+}
+nav{
+	background-color: gray;
+			
+	overflow: auto;
+}
+.submenu{
+	display: none;
+	position: absolute;
+	background-color: lightgray;
+}
+.menu-item:hover .submenu{
+	display: block;
+}
+nav li:hover{
+	background-color: #555555;
+	animation-name: color;
+	animation-duration: 1s;
+}
+@keyframes color{
+	from{
+		background-color: #555555;
+	}
+	to{
+		background-color: #222222;
+	}
+}
