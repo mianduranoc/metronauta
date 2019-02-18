@@ -1,7 +1,7 @@
 <!-- inicio del footer -->
 <footer>
 				<div class="contacto">
-					<h3>Holi</h3>
+					<h3>Instituto Tecnológico de Tepic</h3>
 					<ul>
 						<li><a href="#">Correo: contacto@elmetronomo.com</a></li>
 						<li>Telefono: 311 123 44 55</li>
